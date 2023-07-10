@@ -134,6 +134,42 @@ body{
 	color:var(--fg-color-body);
 	font-size:14px
 }
+
+.index{
+	margin-bottom:0px;
+}
+.index .title{
+	font-size:16px;
+	font-weight:700;
+	color:var(--fg-color)
+}
+
+.index .index-item{
+	display:flex;
+	align-items:center;
+    box-sizing: content-box;
+	width: 95%
+}
+.index .index-item:hover{
+	#text-decoration:underline;
+	background-color:var(--fg-color)
+}
+.index .index-item:hover a{
+	color:var(--bg-color);
+}
+.index .index-item a{
+	text-decoration:none;
+	padding-top:2px;
+	padding-left:5px;
+	padding-bottom:2px;
+	color:var(--fg-color-body);
+	font-size:14px
+}
+.index .index-item a:hover{
+	text-decoration:underline;
+	color:var(--bg-color)
+}
+
 .contact{
 	margin-bottom:20px
 }
