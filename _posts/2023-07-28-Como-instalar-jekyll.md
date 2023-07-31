@@ -2,8 +2,8 @@
 title: Como instalar Jekyll desde 0
 author: Xavi
 date: 2023-07-28 17:21:00 +0200
-categories: [Blogging, Tutorial, Jekyll, CSS, html, ruby, página, web, herramienta]
-tags: [writing]
+categories: [Tutorial, Ruby]
+tags: [writing, Jekyll, CSS, HTML, Ruby, Ruby on rails, página, Web, Página web, Herramientas, framework, Tutorial, script, Linux, desde 0, from scratch]
 ---
 
 # Índice
