@@ -148,6 +148,7 @@ body{
 /* #index */
 .index{
 	margin-bottom:0px;
+	margin-left:-10px;
 	position: fixed;
 }
 .index .title{
@@ -160,7 +161,7 @@ body{
 	display:flex;
 	align-items:center;
     box-sizing: content-box;
-	width: 95%
+	width: 100%
 }
 .index .index-item:hover{
 	#text-decoration:underline;
@@ -172,7 +173,7 @@ body{
 .index .index-item a{
 	text-decoration:none;
 	padding-top:2px;
-	padding-left:5px;
+	padding-left:2px;
 	padding-bottom:2px;
 	color:var(--fg-color-body);
 	font-size:14px
