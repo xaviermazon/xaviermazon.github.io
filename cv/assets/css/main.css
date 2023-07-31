@@ -2,8 +2,8 @@
  * Index
  * #publications
  * #projects
- * 
- * 
+ * #header
+ * #languajes
  * 
  */
 
@@ -33,7 +33,7 @@ body{
 	grid-template-columns:2fr 5fr
 }
 .container .container-block .sidebar{
-	margin-top:20px
+	margin-top:20px;
 }
 @media print{
 	@page{
@@ -97,26 +97,27 @@ body{
 	--fg-color-body: #FFFFFF;
 	--fg-color-title-sm: #CC7D6C
 }
+/* #header */
 .header{
 	width:90%;
 	margin:0 auto;
 	display:flex;
 	justify-content:space-between;
-	align-items:center
+	align-items:center;
 }
 .header .title{
 	color:var(--fg-color-dark);
 	font-weight:bolder;
-	text-transform:uppercase
+	text-transform:uppercase;
 }
 .header input[type=checkbox]{
 	width:0;
 	height:0;
-	display:none
+	display:none;
 }
 .header label{
 	cursor:pointer;
-	color:var(--fg-color-dark)
+	color:var(--fg-color-dark);
 }
 .career-profile .title{
 	color:var(--fg-color);
@@ -144,8 +145,10 @@ body{
 	font-size:14px
 }
 
+/* #index */
 .index{
 	margin-bottom:0px;
+	position: fixed;
 }
 .index .title{
 	font-size:16px;
@@ -179,8 +182,10 @@ body{
 	color:var(--bg-color)
 }
 
+/* #contact */
 .contact{
-	margin-bottom:20px
+	margin-bottom:20px;
+	position: fixed;
 }
 .contact .title{
 	font-size:16px;
@@ -206,8 +211,11 @@ body{
 .contact .contact-item a:hover{
 	text-decoration:underline
 }
+
+/* #languajes */
 .languages{
-	margin-bottom:20px
+	margin-bottom:20px;
+	position: fixed;
 }
 .languages .title{
 	font-size:16px;
@@ -218,6 +226,8 @@ body{
 	color:var(--fg-color-body);
 	font-size:14px
 }
+
+/* #education */
 .education{
 	margin-bottom:20px
 }
