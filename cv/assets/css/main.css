@@ -89,13 +89,13 @@ body {
 	--fg-color-body: #5e6369;
 	--fg-color-title-sm: #688293
 }
-[data-theme='dark'] {
-	--bg-color: #28343b;
-	--bg-color-cv: #1b262c;
-	--fg-color: #3282b8;
-	--fg-color-dark: #3282b8;
-	--fg-color-body: rgba(187,225,250,0.75);
-	--fg-color-title-sm: #688293
+[data-theme=dark]{
+	--bg-color: #222222;
+	--bg-color-cv: #111111;
+	--fg-color: #FF9D64;
+	--fg-color-dark: #CD7D47;
+	--fg-color-body: #FFFFFF;
+	--fg-color-title-sm: #CC7D6C
 }
 .header {
 	width:90%;
